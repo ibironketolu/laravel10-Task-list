@@ -11,17 +11,17 @@
         <div class="row">
             <a href="{{ route('tasks.show',['id' => $output->id]) }}">
                 <div>Title: {{ $output->title }}</div>
-                <div>Description: {{ $output->description }}</div>
+                {{-- <div>Description: {{ $output->description }}</div>
                 <div>Long Description: {{ $output->long_description }}</div>
                 <div>Completed: {{ $output->completed }}</div>
                 <div class="d-flex">
                     <div>Completed: {{ $output->created_at }}</div>
                     <div> Updated at {{ $output->updated_at }}</div>
-                </div>
+                </div> --}}
             </a>
         </div>
         <br>
-        <hr>
+        {{-- <hr> --}}
     </div>
     @endforeach
     @else

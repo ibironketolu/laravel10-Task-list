@@ -9,11 +9,11 @@
 <body>
     <div class="container">
         <div class="row">
-                <h1>@yield('title', $result->title)</h1>
+                {{-- <h1>@yield('title', $tasks->title)</h1> --}}
         </div>
         <div class="row">
             <div>
-                @yield('content')
+                @yield('content')                                                                             
             </div>
         </div>
     </div>
